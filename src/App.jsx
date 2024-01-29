@@ -1,6 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import { HomePage } from "./pages/HomePage";
+import { Footer } from "./components/Footer";
 
 export const App = () => {
   return (
@@ -10,6 +11,7 @@ export const App = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
       </Routes>
+      <Footer />
     </>
   );
 };
