@@ -6,6 +6,7 @@ import { Footer } from "./components/Footer";
 export const App = () => {
   return (
     <>
+      <h1 className="text-danger">BRUNO BRANCH!!!!!!!!!!!!!</h1>
       <h1>Sustituir esto por un navbar</h1>
       <hr />
       <Routes>
