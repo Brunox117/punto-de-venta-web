@@ -1,16 +1,14 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
-import { HomePage } from "./pages/HomePage";
 import { Footer } from "./components/Footer";
+import { AppRouter } from "./router/AppRouter";
 
 export const App = () => {
   return (
     <>
+      <h1 className="text-danger">BRUNO BRANCH!!!!!!!!!!!!!</h1>
       <h1>Sustituir esto por un navbar</h1>
       <hr />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-      </Routes>
+      <AppRouter />
       <Footer />
     </>
   );
