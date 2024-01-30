@@ -1,7 +1,15 @@
 import React from 'react'
+import { CategoriesCarousel } from '../components/categoriesCarousel/CategoriesCarousel'
+import { About } from '../components/AboutComponent'
 
 export const HomePage = () => {
   return (
-    <div>Aqui va el inicio</div>
+    <> 
+    <br /> 
+    <CategoriesCarousel />
+    <br />
+    <br />
+    <About />
+    </>
   )
 }

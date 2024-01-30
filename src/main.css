@@ -3,6 +3,22 @@ footer {
     justify-content: center;
 }
 
+.text-titulo2 {
+  color: #ee8b39;
+
+  font-weight: normal; 
+}
+
+.text-titulo1 {
+  color: #55e85a;
+  font-weight: bold; 
+}
+
+.w-margins {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 @media (orientation: landscape) {
     footer {
         
