@@ -8,7 +8,8 @@ export const Footer = () => {
     <>
       <footer className="container text-center">
         <div className="col">
-          <img src="src\assets\img\footer\ABARROTITO-150x150.png" />
+        <img width={150} height={150}
+          src="src\assets\img\footer\ABARROTITO-150x150.png" />
         </div>
         <div className="container text-center">
           <div className="row justify-content-md-center">
