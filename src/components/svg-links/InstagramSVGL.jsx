@@ -9,7 +9,7 @@ export const InstagramSVGL = () => {
         y="0px"
         width="75"
         height="75"
-        viewBox="0 0 48 48"
+        viewBox="0 0 45 45"
       >
         <radialGradient
           id="yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1"

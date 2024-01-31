@@ -1,7 +1,5 @@
 
   .categories-carousel-container {
-    margin-left: 5%; 
-    margin-right: 5%; 
     justify-content: center;
 
   }
@@ -32,7 +30,9 @@
     padding: 10px;
   }
   .slick-slide img {
-    border: 5px solid #fff;
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #ffffff;
     display: block;
     margin: auto;
   }
@@ -60,7 +60,7 @@
   }
   @media (max-width: 768px) {
     h3 {
-      font-size: 24px;
+      font-size: 18px;
     }
     .center {
       margin-left: -40px;

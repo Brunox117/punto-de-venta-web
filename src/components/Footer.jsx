@@ -11,19 +11,19 @@ export const Footer = () => {
           <img width={150} height={150}
           src="src\assets\img\footer\ABARROTITO-150x150.png" />
         </div>
-        <div className="container text-center">
+        {/* <div className="container "> */}
           <div className="row justify-content-md-center">
-            <div className="col-2">
+            <div className="col">
               <InstagramSVGL />
             </div>
-            <div className="col-2">
+            <div className="col">
               <FacebookSVGL />
             </div>
-            <div className="col-2">
+            <div className="col">
               <TiktokSVGL />
             </div>
           </div>
-        </div>
+        {/* </div> */}
         <div className="col">© 2018 Todos los Derechos Reservados </div>
       </footer>
     </>

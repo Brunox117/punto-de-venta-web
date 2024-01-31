@@ -20,7 +20,7 @@ const data = [
     img: "src/assets/img/footer/ABARROTITO-150x150.png",
   },
   {
-    category: "Armas",
+    category: "Farmacia",
     img: "src/assets/img/footer/ABARROTITO-150x150.png",
   },
   {
@@ -38,8 +38,12 @@ export const CategoriesCarousel = () => {
     centerPadding: "100px",
     slidesToShow: 3,
     slidesToScroll: 1,
-    speed: 500,
+    speed: 3000,
     arrows: false,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+    puaseOnHover: true
   };
   return (
     <>
